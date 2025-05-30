@@ -1,0 +1,33 @@
+# Ignore all files inside the data directory
+data/*
+!data/.gitkeep  # Keep an empty placeholder to track the folder
+
+# Ignore the virtual environment
+env/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and runtime files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore model files and outputs if you don't want them in version control
+# models/*
+# !models/.gitkeep
+# outputs/*
+# !outputs/.gitkeep
