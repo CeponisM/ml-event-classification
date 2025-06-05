@@ -66,7 +66,7 @@ ml-event-classification/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/ml-event-classification.git
+   git clone https://github.com/CeponisM/ml-event-classification.git
    cd ml-event-classification
    ```
 
